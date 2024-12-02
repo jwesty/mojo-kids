@@ -1,0 +1,91 @@
+.safety-content {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.safety-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+.safety-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.safety-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.safety-text {
+    flex: 1;
+}
+
+.safety-image {
+    flex: 1;
+}
+
+.safety-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.feature-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.teacher-testimonial {
+    text-align: center;
+    padding: 3rem 2rem;
+    margin-top: 3rem;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+cite {
+    display: block;
+    margin-top: 1rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .safety-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .safety-section.reverse {
+        flex-direction: column;
+    }
+}
